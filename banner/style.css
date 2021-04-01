@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.banner{
+    background: url("./img/perdigaoNaBrasa.svg") no-repeat;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    background-size: auto;
+}
+
+.banner p{
+    font-size:50px;
+    font-weight: bold;
+    color: white;
+    padding-left: 100px;
+    margin: 0;
+}
+
+.blink_me {
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+#primeiro{
+    margin-left: 15px;
+}
+
+#segundo{
+    margin-left: 10px;
+}
+
+#terceiro{
+    margin-left: 50px;
+}
