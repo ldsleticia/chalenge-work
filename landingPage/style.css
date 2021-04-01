@@ -5,8 +5,8 @@
   margin: 0;
 }
 
-body{
-  background-color:#faf9f9;
+body {
+  background-color: #faf9f9;
 }
 
 .topnav {
@@ -114,33 +114,31 @@ body{
   margin-bottom: 100px;
 }
 
-
 #content {
   width: 50%;
-  height:auto;
+  height: auto;
 }
 
-#content > img{
+#content > img {
   padding-left: 60%;
   padding-top: 100px;
 }
 
 #sidebar {
   width: 50%;
-  height:auto;
+  height: auto;
   font-family: "Open Sans", sans-serif;
 }
 
-#sidebar > h1{
+#sidebar > h1 {
   text-transform: uppercase;
   padding-top: 100px;
   color: #525252;
   font-size: 35px;
-  letter-spacing: .2rem;
-
+  letter-spacing: 0.2rem;
 }
 
-#sidebar > p{
+#sidebar > p {
   margin-top: 30px;
   color: #767272;
   font-family: "Open Sans";
@@ -150,7 +148,7 @@ body{
   margin-bottom: 20px;
 }
 
-.lista-de-itens li{
+.lista-de-itens li {
   padding: 20px;
   margin-left: 30px;
   color: #525151;
@@ -159,23 +157,23 @@ body{
   font-size: 20px;
 }
 
-#camera{
+#camera {
   list-style-image: url("./img/Camera.svg");
 }
 
-#video-camera{
+#video-camera {
   list-style-image: url("./img/Video_Camera.svg");
 }
 
-#eyeball{
+#eyeball {
   list-style-image: url("./img/Eyeball.svg");
 }
 
-#painting{
+#painting {
   list-style-image: url("./img/Painting.svg");
 }
 
-#location{
+#location {
   list-style-image: url("./img/Location.svg");
   margin-bottom: 50px;
 }
@@ -185,97 +183,107 @@ body{
   justify-content: start;
 }
 
-.video-botao{
+.video-botao {
   border: 3px solid;
   padding: 11px 21px;
   max-height: 40px;
   color: #6e6c6c;
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
 }
 
-.get{
+.get {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: #6e6c6c;
   padding: 25px;
 }
 
-.option{
+.option {
   background-color: #41c27d;
-  background-image: linear-gradient(to top, #47ad77 0%, #41c27e 99%, #41c27e 100%);
+  background-image: linear-gradient(
+    to top,
+    #47ad77 0%,
+    #41c27e 99%,
+    #41c27e 100%
+  );
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.elementos{
-  display: block;
-  margin-left: 10%;
-  padding: 50px;
+.option > .elementos {
+  flex: 1 1 30%;
+  height: auto;
 }
 
-.elementos img{
+.elementos img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
 }
 
-.elementos h1{
-/* width: 310px; */
-height: 50px;
-padding-top: 30px;
-color: #e1f7eb;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
+.elementos h1 {
+  height: 50px;
+  padding-top: 30px;
+  color: #e1f7eb;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
 }
 
-.elementos p{
+.elementos p {
   font-family: "Open Sans";
   font-style: normal;
   letter-spacing: 0.16px;
   line-height: 28px;
   color: #e1f7eb;
-  margin-left: 40px;
+  text-align: center;
 }
 
-.description-text{
-text-align: center;
-color: #767272;
-font-family: "Open Sans";
-font-size: 18px;
-font-weight: 400;
-letter-spacing: 0.18px;
-line-height: 40px;
-padding: 100px;
+.description-text {
+  text-align: center;
+  color: #767272;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+  line-height: 40px;
+  padding: 100px;
 }
 
-.description-text h1{
- margin-top: 50px;
+.description-text h1 {
+  margin-top: 50px;
 }
 
-.join-newsletter{
+.join-newsletter {
   background-color: #41c27d;
-  background-image: linear-gradient(to top, #47ad77 0%, #41c27e 99%, #41c27e 100%);
+  background-image: linear-gradient(
+    to top,
+    #47ad77 0%,
+    #41c27e 99%,
+    #41c27e 100%
+  );
   text-align: center;
   padding: 100px;
 }
 
-.join-newsletter p{
+.join-newsletter p {
   color: #ffffff;
   font-family: "Open Sans";
   font-size: 20px;
   margin-bottom: 20px;
 }
 
-.join-newsletter input{
+.join-newsletter input {
   width: 368px;
   height: 50px;
   padding-left: 20px;
@@ -300,23 +308,23 @@ padding: 100px;
 }
 
 ::-moz-placeholder {
-  color: #41c27d;  
+  color: #41c27d;
   font-family: "Open Sans";
   font-size: 14px;
 }
 
-:-ms-input-placeholder {  
-  color: #41c27d;  
+:-ms-input-placeholder {
+  color: #41c27d;
   font-family: "Open Sans";
   font-size: 14px;
 }
 
-.footer{
+.footer {
   text-align: center;
   padding: 80px;
 }
 
-.footer p{
+.footer p {
   margin-top: 60px;
   color: #767272;
   font-family: "Open Sans";
